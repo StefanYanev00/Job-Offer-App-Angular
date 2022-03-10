@@ -1,0 +1,11 @@
+.card{
+    background-color: skyblue;
+    margin-top: 15px;
+    border: 1 px solid blue;
+    width: 550px;
+    padding: 45px;
+    position: absolute;
+    top: 1%;
+    left: 30%;
+
+}
