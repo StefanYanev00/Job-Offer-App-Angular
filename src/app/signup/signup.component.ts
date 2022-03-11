@@ -28,7 +28,7 @@ export class SignupComponent implements OnInit {
       this.signupForm.reset();
       this.router.navigate(['login'])
     } , err=>{
-      alert("Something went wrong!")
+      alert("Something went wrong! Please run RUN ' npx json-server --watch db.json '  in the terminal")
     }
     )
 

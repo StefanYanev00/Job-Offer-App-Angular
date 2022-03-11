@@ -1,8 +1,8 @@
 <nav class="navbar navbar-light bg-primary">
     <div class="container-fluid">
-        <h2>Restaurant Record App</h2>
+        <h2>Job Offer App</h2>
         <div class="d-flex">
-            <button (click)="clickAddResto()" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Restaurant</button>
+            <button (click)="clickAddResto()" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Job Offers</button>
             <button routerLink="/login" class="btn btn-danger mx-3">Log Out</button>
         </div>
     </div>
@@ -11,8 +11,8 @@
 <!--Jumbotron-->
 <div class="p-5 mb-4 bg-light rounded-3">
     <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold">Restaurant Records Management</h1>
-        <p class="col-md-8 fs-4">You can now save records of restaurant using angular</p>
+        <h1 class="display-5 fw-bold">Job Offers Management</h1>
+        <p class="col-md-8 fs-4">You can now save job offers using angular</p>
         <a class="btn btn-primary btn-lg" target="_blank" type="button" href="https://www.facebook.com/stefan.yanev.501/">Check my social media accounts!</a>
     </div>
 </div>
@@ -21,12 +21,12 @@
 <table class="table mt-4">
     <thead>
         <tr>
-            <th scope="col">Restaurant ID</th>
-            <th scope="col">Name</th>
+            <th scope="col">Job ID</th>
+            <th scope="col">Job Name</th>
             <th scope="col">Email</th>
             <th scope="col">Mobile</th>
             <th scope="col">Address</th>
-            <th scope="col">Service</th>
+            <th scope="col">Field of job</th>
             <th scope="col">Action</th>
         </tr>
     </thead>
@@ -53,30 +53,30 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Restaurant Records Form</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Job Offers Form</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <form [formGroup]="formValue">
                 <div class="mb-3">
                   <label class="form-label">Name</label>
-                  <input type="text" formControlName="name" class="form-control" placeholder="Restaurant Name Here" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="text" formControlName="name" class="form-control" placeholder="Job Name Here" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                   <label class="form-label">Email ID</label>
-                  <input type="email" formControlName="email" class="form-control" placeholder="Restaurant Email ID" id="exampleInputPassword1">
+                  <input type="email" formControlName="email" class="form-control" placeholder="Email Here" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Mobile</label>
-                    <input type="email" formControlName="mobile" class="form-control" placeholder="Restaurant Mobile number" id="exampleInputPassword1">
+                    <input type="email" formControlName="mobile" class="form-control" placeholder="Job Offer giver mobile number" id="exampleInputPassword1">
                   </div>
                   <div class="mb-3">
                     <label class="form-label">Address</label>
-                    <input type="email" formControlName="address" class="form-control" placeholder="Restaurant Address" id="exampleInputPassword1">
+                    <input type="email" formControlName="address" class="form-control" placeholder="Job office Address" id="exampleInputPassword1">
                   </div>
                   <div class="mb-3">
-                    <label class="form-label">Services</label>
-                    <input type="email" formControlName="services" class="form-control" placeholder="Restaurant Services" id="exampleInputPassword1">
+                    <label class="form-label">Field of job</label>
+                    <input type="email" formControlName="services" class="form-control" placeholder="Field of job" id="exampleInputPassword1">
                   </div>
                 
               </form>

@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
+// RUN   npx json-server --watch db.json   in the terminal !!!
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -36,7 +38,7 @@ export class LoginComponent implements OnInit {
         alert("User Not Found!")
       }
     }, err => {
-      alert("Something went wrong!")
+      alert("Something went wrong! Please run RUN ' npx json-server --watch db.json '  in the terminal")
     }
     )
 

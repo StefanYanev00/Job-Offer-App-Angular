@@ -1,44 +1,20 @@
 {
   "posts": [
     {
-      "id": 2,
-      "name": "myplace",
-      "email": "myplace@abv.bg",
-      "mobile": "0887456885",
-      "address": "asdasd",
-      "services": "nargile"
-    },
-    {
-      "id": 3,
-      "name": "asd",
-      "email": "2",
-      "mobile": "088855",
-      "address": "proizvolna1234",
-      "services": "kafe"
-    },
-    {
-      "id": 4,
-      "name": "testova",
-      "email": "testovo@abv.bg",
-      "mobile": "0888888",
-      "address": "gen.genev25",
-      "services": "nargile"
-    },
-    {
-      "id": 5,
-      "name": "asd",
-      "email": "2",
-      "mobile": "088855",
-      "address": "proizvolna",
-      "services": "kafed"
-    },
-    {
       "id": 6,
-      "name": "asda",
-      "email": "asd",
-      "mobile": "asdasd",
-      "address": "acz",
-      "services": "asfa"
+      "name": "Chistach",
+      "email": "firmachistota@abv.bg",
+      "mobile": "0877744455",
+      "address": "Plovdiv, bul. Trakiq 33",
+      "services": "Chistene na kushti"
+    },
+    {
+      "id": 7,
+      "name": "Stroitel",
+      "email": "stroitelnafirma@abv.bg",
+      "mobile": "088888777",
+      "address": "Sofia, bul.Osvobozhdenie 28",
+      "services": "Stroene na kushti"
     }
   ],
   "signup": [
@@ -55,6 +31,41 @@
       "mobile": "089555555",
       "password": "todor123",
       "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test@abv.bg",
+      "mobile": "08885669974",
+      "password": "test123",
+      "id": 3
+    },
+    {
+      "name": "test2",
+      "email": "test2@abv.bg",
+      "mobile": "08555555",
+      "password": "test2123",
+      "id": 4
+    },
+    {
+      "name": "asd",
+      "email": "asd@gmail.com",
+      "mobile": "08795546",
+      "password": "asd123",
+      "id": 5
+    },
+    {
+      "name": "George",
+      "email": "george@abv.bg",
+      "mobile": "",
+      "password": "george123",
+      "id": 6
+    },
+    {
+      "name": "stefan",
+      "email": "stefan@abv.bg",
+      "mobile": "",
+      "password": "stefan123",
+      "id": 7
     }
   ],
   "comments": [],
