@@ -1,6 +1,7 @@
-# RestaurentApp
+# JobOfferApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+Please RUN ' npx json-server --watch db.json '  in the terminal
 
 ## Development server
 
